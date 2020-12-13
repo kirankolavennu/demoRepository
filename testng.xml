@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite_GitRepo">
+<listeners>
+	<listener class-name="com.qa.ExtentReport.ExtentReportListener"></listener>
+</listeners>
+
+  <test  name="TestGitRepo">
+    <classes>
+      <class name="com.qa.test.LoginTest"/>
+      <class name="com.qa.ExtentReport.ExtentReportListener"/>
+      <class name="com.qa.lib.TestBase"/>
+    </classes>
+  </test> <!-- TestGitRepo -->
+</suite> <!-- Suite_GitRepo -->
